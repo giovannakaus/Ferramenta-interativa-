@@ -5,7 +5,7 @@ body {
 
 footer {
     background-color:lightblue
-    color: rosybrown;
+    color: pink
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -47,5 +47,5 @@ footer {
                     }
             :root {
                   --text-color: #DBE4EF;
-                   --card-front-color: #144480;
-                   --card-back-color: #00F4BF;                
+                   --card-front-color: #a533ab;
+                   --card-back-color: #593e68;                
