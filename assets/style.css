@@ -45,7 +45,4 @@ footer {
                         border-radius: 0.6rem;
                         font-size: 1vw;
                     }
-            :root {
-                  --text-color: #DBE4EF;
-                   --card-front-color: #a533ab;
-                   --card-back-color: #593e68;                
+         
