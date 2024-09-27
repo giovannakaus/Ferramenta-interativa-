@@ -7,8 +7,8 @@ body {
 }
 
 footer {
-    background-color:lightblue
-    color: pink;
+    background-color:lightblue;
+    color:rgba(160, 95, 201, 0.932);
     position: fixed;
     bottom: 0;
     width: 100%;
