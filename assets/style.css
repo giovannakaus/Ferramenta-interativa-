@@ -6,6 +6,10 @@ body {
     display: flex;
 }
 
+.cartao:hover .cartao__conteudo {
+    transform: rotateY(180deg);
+}
+
 footer {
     background-color:lightblue;
     color:rgba(160, 95, 201, 0.932);
@@ -13,6 +17,7 @@ footer {
     bottom: 0;
     width: 100%;
     height: 2rem;
+
     }
 
     footer p {
@@ -32,8 +37,22 @@ footer {
                 .cartao__conteudo {
                     text-align: center;
                     height: 100%;
+                    transform-style: preserve-3d;
+                    transition: transform 300ms ease-in-out;
                     }
 
+                    
+                    .cartao__conteudo h3 {
+                        color: var(--text-color);
+                        border: 1px solid var(--text-color);
+                        text-align: left;
+                        padding: 0.5rem;
+                        position: absolute;
+                        margin: 0.6rem;
+                        border-radius: 0.6rem;
+                        font-size: 1vw;
+                        backface-visibility: hidden;
+                    }
                   
             
          
