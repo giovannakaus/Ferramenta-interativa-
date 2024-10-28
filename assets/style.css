@@ -73,7 +73,7 @@ body {
 
 
 footer {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0);
     color: white;
     bottom:0;
     position:fixed;
